@@ -1,0 +1,86 @@
+//
+//  main.swift
+//  Lesson 1
+//
+//  Created by Setko on 23.12.2021.
+//
+
+import Foundation
+
+
+// Квадратное уровнение
+// ax^2 + bx + c = 0
+// Если D < 0 - корней нет
+// Если D = 0 - корень один
+// Если D > 0 - корней два
+
+// Решение Задачи № 1
+
+/*
+let a: Double = 9
+let b: Double = -30
+let c: Double = 25
+
+var D = b * b - 4 * a * c // формула вычисления дискриминанта
+print("Дискриминант равен " + String(D))
+
+var x1: Double = 0
+var x2: Double = 0
+
+if D > 0 {
+    x1 = (-b + sqrt(D)) / (2 * a)
+    x2 = (-b - sqrt(D)) / (2 * a)
+    print ("Ответ: " + "x1 = " + String(x1), "x2 = " + String(x2))
+} else if D == 0 {
+    x1 = -b / (2 * a)
+    print ("Ответ: " + "x1 = " + String(x1))
+} else {
+    print ("Корней нет")
+}
+*/
+
+
+
+/*
+// Решение Задачи № 2
+ 
+ 
+let cathetA = 3
+let cathetB = 4
+var area = (cathetA * cathetB) / 2
+var hypotenuse = sqrt((Double(cathetA) * Double(cathetA)) + (Double(cathetB) * Double(cathetB)))
+var perimeter = cathetA + cathetB + Int(hypotenuse)
+                    
+print("Площадь треугольника равна", area, "сантиметрам.")
+print("Гипотинуза равна", Int(hypotenuse), "сантиметрам.")
+print("Периметр треугольника равен",  perimeter, "сантиметрам.")
+*/
+
+// Решение Задачи № 3
+
+
+var deposit: Double = 20000
+var percent: Double = 10
+percent = percent / 100
+
+let year1 = deposit + (deposit * percent)
+let year2 = year1 + (year1 * percent)
+let year3 = year2 + (year2 * percent)
+let year4 = year3 + (year3 * percent)
+let year5 = year4 + (year4 * percent)
+
+print(year5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
